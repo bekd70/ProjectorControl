@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   <title>Projector Control</title>
+   <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<td rowspan=2>
+					<a href="scripts/power_on.php"><button type="button" class="btn btn-primary btn-lg">Power: On</button></a>
+				</td>
+				<td>
+					<a href="scripts/input_lan.php"><button type="button" class="btn btn-lg btn-success">Input: LAN</button></a>
+					
+					
+				</td>
+				<td>
+					<a href="scripts/input_vga.php"><button type="button" class="btn btn-lg btn-success">Input: VGA</button></a>
+					
+				</td>
+				<td rowspan=2>
+					<a href="scripts/sound_mute.php"><button type="button" class="btn btn-lg btn btn-info">Sound Mute</button></a>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<a href="scripts/input_hdmi1.php"><button type="button" class="btn btn-lg btn-success">Input: HDMI 1</button></a>
+				</td>
+				<td>
+					<a href="scripts/input_hdmi2.php"><button type="button" class="btn btn-lg btn-success">Input: HDMI 2</button></a>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan=2>
+					<a href="scripts/power_off.php"><button type="button" class="btn btn-primary btn-lg">Power: Off</button></a>
+				</td>
+				
+				<td>
+					<a href="scripts/input_usb.php"><button type="button" class="btn btn-lg btn-success">Input: USB A</button></a>
+				</td>
+				<td>
+					<a href="scripts/input_usb_b.php"><button type="button" class="btn btn-lg btn-success">Input: USB B</button></a>
+				</td>
+				<td rowspan=2>
+					<a href="scripts/sound_unmute.php"><button type="button" class="btn btn-lg btn btn-info">Sound On</button></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="scripts/pic_mute.php"><button type="button" class="btn btn-lg btn-warning">Picture: Mute</button></a>
+				</td>
+				<td>
+					<a href="scripts/pic_unmute.php"><button type="button" class="btn btn-lg btn-warning">Picture: Unmute</button></a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>

@@ -1,2 +1,2 @@
 # ProjectorControl
-Raspberry Pi Control for a Projector through a serial connection.  
+Raspberry Pi Control for a Projector through a serial connection.  Works with a Raspberry Pi 3 with Jessie installed.  Required is an RS232 add-on board.  The project works with Raspberry Pi with an attached touch screen.  It is an HTML document that calls PHP files that run Python Scripts.  The hex codes in the python scripts work for an NEC UM351 but can be changed to the correct hex codes for your projector. It is using the pyserial library.
